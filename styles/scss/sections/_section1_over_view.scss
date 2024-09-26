@@ -1,0 +1,89 @@
+.first-section {
+  padding-top: 0;
+  //   height: 10000px;
+  @media (min-width: 500px) {
+    padding-top: 203px;
+  }
+  @media (min-width: 790px) {
+    padding-top: 181px;
+  }
+  @media screen and (min-width: 867px) {
+    padding-top: 141px;
+  }
+}
+.line {
+  display: flex;
+  //   flex-direction: row;
+  justify-content: flex-start;
+  align-items: baseline;
+  font-size: 0.75rem;
+
+  .info-numbers {
+    font-weight: 700;
+    line-height: 1.25;
+    margin: 0px 5px 5px 10px;
+  }
+  .line-text-first {
+    margin-left: 8px;
+  }
+}
+
+.first-line {
+  font-size: 1.4rem;
+  margin-top: 5px;
+}
+.circle {
+  margin-left: 8px;
+}
+._severe-cases-body-devider {
+  height: 0.5rem;
+}
+#vaccinated-body {
+  .line-text-first {
+    margin-left: 14px;
+  }
+  .line-text-first2 {
+    margin-left: 4px;
+  }
+}
+#positives-yesterday-body {
+  .first-line {
+    .info-numbers {
+      margin-right: 0;
+    }
+  }
+}
+.week-summery-container {
+  background-color: var(--card-background-color);
+  border-radius: 10px;
+  box-sizing: border-box;
+  box-shadow: 3px 6px 14px #0000001a;
+  padding: 2px 20px;
+  margin: 0 10px;
+}
+
+.summery-header {
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 10px;
+}
+.summery-card-warper {
+  --actions-size: 32px;
+  min-height: 100px;
+  margin-bottom: var(--card-margin-bottom);
+  width: 100%;
+  padding: 0;
+  @media (min-width: 500px) {
+    width: 50%;
+    padding: 0 10px;
+  }
+  @media (min-width: 769px) {
+    width: 25%;
+  }
+}
+.week-summery-container .info-numbers-warper {
+  margin: 0px 5px 5px 10px;
+  .info-numbers {
+    margin: 0 0 0 0;
+  }
+}

@@ -1,0 +1,17 @@
+@keyframes BackgroundFadeIn {
+  0% {
+    background-color: #eff5f900;
+  }
+  100% {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+}
+
+@keyframes SlideFromRight {
+  0% {
+    inset-inline-start: -275px;
+  }
+  100% {
+    inset-inline-start: 0;
+  }
+}
