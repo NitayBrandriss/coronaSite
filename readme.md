@@ -32,8 +32,8 @@ Responsive Design
 Git / GitHub
 
 📸 תמונות מהפרויקט
-![desctopHomepage]()
-![mobileHomepage](./screenshots/mobile_homepage.png)
+![desktop_homepage](./screenshots/desktop_home_page.png)
+![mobile_homepage](./screenshots/mobile_homepage.png)
 ![table](./screenshots/sorted_table.png)
 ![charts](./screenshots/charts.png)
 ![charts_darkmode](./screenshots/charts_darkmode.png)
